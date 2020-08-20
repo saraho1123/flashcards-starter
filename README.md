@@ -1,79 +1,44 @@
-# FlashCards Starter Kit
+# Flashcards
+___
 
-## Fork This Repo
+A JavaScript Project by [Nicole Gooden](https://github.com/nicolegooden).
 
-On the top right corner of this page, click the **Fork** button.
+*Flashcards* is a game that a user can play through the Command Line Interface.  The game is initialized with a deck of 30 cards, and will display a greeting message followed by the first card's data.  The user can choose the answer to the first question by using the arrow up and arrow down keys.  As this action takes place, the number of the selected answer shows up and can be submitted for evaluation when the user hits enter.  The user will then see feedback on the accuracy of their selected answer, and be prompted to answer the next question until there are no more cards in the deck.  When the round terminates, the user will see a message indicating that the round is over, which includes a percentage of questions answered correctly throughout the round.
 
-## Setup
+This project is dependent upon the instantiation of objects from `Classes`, in addition to `Test Driven Development` to verify functionality along the way.
+___
 
-Clone down the forked repo (from your GitHub). Since you don't want to name your project "flashcards-starter", you can use an optional argument when you run `git clone` (you replace the `[...]` with the terminal command arguments):
+##Install / Setup
 
-```bash
-git clone [remote-address] [what you want to name the repo]
-```
+To play *Flashcards*:
 
-Once you have cloned the repo, change into the directory and install the library dependencies. Run:
+1. Fork this repo to your GitHub profile.  In order to fork this project, you must click the `Fork` button in the top-right corner of your screen.  You can check that this repo is forked by looking at the top-left corner of your browser.  If it shows the `fork` symbol next to `[your-GitHub-username]/flashcards-starter`, then you are on the right track!
 
-```bash
-npm install
-```
+1. Clone this forked repo to your local computer.  To do this, click on the green `code` button toward the top of the page.  Ensure that it shows a small window with `Clone with SSH`.  If it says to clone with HTTPS, click on the `Use SSH` blue link within the window to switch.  `SSH` is protected by a password and is more secure.  Next, click on the copy icon to the right of the remote address, or simply highlight the entire address and hit `command C`.  
 
-To verify that it is setup correctly, run `npm test` in your terminal. You should have 5 pending tests in your `Card` test file that show up.
+    To get cloning started, type this command into your terminal from whichever directory you'd like it to exist in:
 
-Running `node index.js` from the root of your project should result in the following message being displayed in your terminal: 
+    `git clone [copied remote address]`
 
-```bash
-Node server running on port 3000
-```
+    The remote address can be pasted using `command V`.  When you are satisfied with this command, hit enter.
 
-*Note that you will not need to you run your server until you are instantiating your `Game` class in Iteration 3. Prior to that, you should be using TDD to drive your code. You should check the functionality of your application by running your tests via `npm test`.*
+1. Now, `cd` into the local repo from your terminal.  You will need to type `cd` followed by the name of the repo, which should match that of the remote.
 
+1. After changing into the directory with `cd`, install the library dependencies by running the following command in the terminal:
 
-## Where to Add Your Code
+    `npm install`
 
-### JavaScript
+1. Verify that everything is working as it should be.  If you run `npm test` in the terminal, there should be 35 passing tests.
 
-**Create all of your feature code files in the `src` directory.**
+1. To play the game (finally!), run the following command in the terminal, from inside of the repo:
 
-We will be using the `module.exports` and `require` syntax to share code across files.
+      `node index.js`
 
-## How to View Your Code in Action
+At this point, you should see a greeting and be prompted to answer the question of the first card of the deck.  Enjoy the game!
 
-Once you are working through Iteration 3, you will want to start your server to test your functionality.
-In the terminal, run:
+**HINT:** To exit the game and start a new round with the same deck, hit `control C`.  You will then need to run the command from step 6 to play again.
+___
 
-```bash
-node index.js
-```
+## Flashcards In action
 
-When the game is functioning appropriately, you will be prompted for each question, have the opportunity to select an answer, and will be given feedback. You will be able to play through the entire deck of cards:
-
-![flash cards example gif](https://media.giphy.com/media/1zkb1q58eTiTH6D7wc/giphy.gif)
-
----
-
-## Test Files Organization
-
-Similar to feature code, your test code needs to be put in a specific place for it to run successfully.
-
-**Put all of your test files in the `test` directory.** As a convention, all test filenames should end with `-test.js`. For instance: `Round-test.js`.
-
-## Running Your Tests
-
-Run your test suite using the command:
-
-```bash
-npm test
-```
-
-The test results will output to the terminal.
-
----
-
-## Linting Your Code
-
-Run the command in your terminal `npm run lint` to run the linter on your JavaScript code. There will be errors and warnings right from the start in this starter kit - the linter is still running successfully.
-
-Your linter will look at the JavaScript files you have within the `src` directory and the `test` directory. 
-
----
+![flashcards gif](http://g.recordit.co/xSfIeW7AVC.gif)
