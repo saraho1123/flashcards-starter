@@ -8,7 +8,7 @@ A JavaScript Project by [Nicole Gooden](https://github.com/nicolegooden).
 This project is dependent upon the instantiation of objects from `Classes`, in addition to `Test Driven Development` to verify functionality along the way.
 ___
 
-##Install / Setup
+## Install / Setup
 
 To play *Flashcards*:
 
@@ -39,6 +39,6 @@ At this point, you should see a greeting and be prompted to answer the question 
 **HINT:** To exit the game and start a new round with the same deck, hit `control C`.  You will then need to run the command from step 6 to play again.
 ___
 
-## Flashcards In action
+## Flashcards In Action
 
 ![flashcards gif](http://g.recordit.co/xSfIeW7AVC.gif)
