@@ -12,7 +12,9 @@ ___
 
 To play *Flashcards*:
 
-1. Fork this repo to your GitHub profile.  In order to fork this project, you must click the `Fork` button in the top-right corner of your screen.  You can check that this repo is forked by looking at the top-left corner of your browser.  If it shows the `fork` symbol next to `[your-GitHub-username]/flashcards-starter`, then you are on the right track!
+1. **Only complete this step if you want to have this repo on your GitHub profile OR if there is a potential for you to make edits/updates to the code**
+
+    Fork this repo to your GitHub profile.  In order to fork this project, you must click the `Fork` button in the top-right corner of your screen.  You can check that this repo is forked by looking at the top-left corner of your browser.  If it shows the `fork` symbol next to `[your-GitHub-username]/flashcards-starter`, then you are on the right track!
 
 1. Clone this forked repo to your local computer.  To do this, click on the green `code` button toward the top of the page.  Ensure that it shows a small window with `Clone with SSH`.  If it says to clone with HTTPS, click on the `Use SSH` blue link within the window to switch.  `SSH` is protected by a password and is more secure.  Next, click on the copy icon to the right of the remote address, or simply highlight the entire address and hit `command C`.  
 
@@ -22,7 +24,7 @@ To play *Flashcards*:
 
     The remote address can be pasted using `command V`.  When you are satisfied with this command, hit enter.
 
-1. Now, `cd` into the local repo from your terminal.  You will need to type `cd` followed by the name of the repo, which should match that of the remote.
+1. Now, `cd` into the local repo from your terminal.  You will need to type `cd` followed by the name of the repo, which should match that of the remote: `flashcard-starter`.
 
 1. After changing into the directory with `cd`, install the library dependencies by running the following command in the terminal:
 
