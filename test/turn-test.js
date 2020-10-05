@@ -43,7 +43,7 @@ describe('Turn', function() {
     const card = new Card(1, 'What is Isaac\'s favorite color?', ['blue', 'red', 'black'], 'black');
     const turn1 = new Turn('blue', card);
     const turn2 = new Turn('black', card);
-    // expect(turn1.giveFeedback()).to.equal('incorrect!');
+    expect(turn1.giveFeedback()).to.equal('incorrect!');
     expect(turn2.giveFeedback()).to.equal('correct!');
   }); 
 });
