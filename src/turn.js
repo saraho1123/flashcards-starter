@@ -18,11 +18,6 @@ class Turn {
 
   giveFeedback() {
     return this.evaluateGuess() ? 'correct!' : 'incorrect!'
-    // if (this.evaluateGuess() === true) {
-    //   return 'correct!';
-    // } else {
-    //   return 'incorrect!'
-    // }
   }
 }
 
