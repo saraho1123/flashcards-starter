@@ -22,12 +22,12 @@ describe('Deck', function() {
     const card1 = new Card(1, 'What is Isaac\'s favorite color?', ['blue', 'orange', 'black'], 'black');
     const card2 = new Card(2, 'What location does Isaac like best?', ['beaches', 'mountains', 'deserts'], 'beaches');
     const card3 = new Card(3, 'What is Isaac\'s favorite toy?', ['bike', 'cardboard box', 'Legos!'], 'Legos!');
-    const decks = [card1, card2, card3];
-    const deck1 = new Deck(decks);
+    const decks1 = [card1, card2, card3];
+    const deck1 = new Deck(decks1);
  
-    expect(deck1.deck[0].id).to.equal(1);
-    expect(deck1.deck[1].question).to.equal('What location does Isaac like best?');
-    expect(deck1.deck[2].correctAnswer).to.equal('Legos!');
+    expect(deck1.decks[0].id).to.equal(1);
+    expect(deck1.decks[1].question).to.equal('What location does Isaac like best?');
+    expect(deck1.decks[2].correctAnswer).to.equal('Legos!');
 
   });  
 
