@@ -6,15 +6,15 @@ const Turn = require('../src/Turn');
 
 describe('Turn', function() {
   let turn;
+  let card;
   let turn1;
   let turn2;
-  let card;
 
   beforeEach(function() {
     turn = new Turn();
+    card = new Card(1, 'What is Isaac\'s favorite color?', ['blue', 'red', 'black'], 'black');
     turn1 = new Turn('black', card);
     turn2 = new Turn('blue', card);
-    card = new Card(1, 'What is Isaac\'s favorite color?', ['blue', 'red', 'black'], 'black');
   });
 
 
