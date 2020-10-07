@@ -95,8 +95,14 @@ describe('Round', function() {
   });
 
   // test endRound
-  // need a return statement that accesses the return of ca
-  it()
+  // need a return statement that accesses the return of calculatePercentCorrect
+  // return ** Round over! ** You answered ${this.calculatePercentCorrect} of the questions correctly!
+  it('should end the game with a statement that includes percentage correct', function() {
+    round1.takeTurn('black');
+    round1.takeTurn('beaches');
+    round1.takeTurn('cardboard box');
 
+    expect(round1.endRound()).to.equal('** Round over! ** You answered 67% of the questions correctly!');
+  })
 
 });  
