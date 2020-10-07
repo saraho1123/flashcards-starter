@@ -82,16 +82,21 @@ describe('Round', function() {
     expect(round1.takeTurn('mountains')).to.equal('incorrect!');
   });
 
-  // you didn't write any tests for takeTurn! Go back and do this.
-  // also, you should start psuedocoding, if for nothing else, you need to do it
-  // for the practice!
+  // test for calculatePercentage
+  // test that it is a percentage (66%). 
+  // NEED method for converting number to percentage!
+  // or concate with a %?? (probably use math.floor to round to whole number?)
+  it('should return percentage of correct guesses', function () {
+    round1.takeTurn('black');
+    round1.takeTurn('beaches');
+    round1.takeTurn('cardboard box');
 
-  // takeTurn 
-  // needs to test that there is a new instantiation of Turn
-  // DONE! test the turns counter when answer is correct and when answer is incorrect
-  // DONE! test that the current card is the next card that was in the array
-  // DONE!test that incorrect guesses are stored in the incorrectGuesses array 
-  // DONE! NOTE the spec says it needs to be via the id ????What id? the cards have an id, but no the guess
-  // test that the correct return statement is returned based on answer
-  //
+    expect(round1.calculatePercentCorrect()).to.equal('67%');
+  });
+
+  // test endRound
+  // need a return statement that accesses the return of ca
+  it()
+
+
 });  
