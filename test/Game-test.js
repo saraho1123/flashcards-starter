@@ -57,11 +57,13 @@ describe('Game', function() {
 
   it.skip('should create cards', function() {
     // I'm a little confused on this one. 
+    // after I run start() ... test this.currentRound
+    // expect(game.cards[0]).to.be.an.instanceof(Card);
   });
 
   it.skip('should instantiate a new deck of cards', function() {
     // I'm uncertain how to test this.
-    //expect(game(start())).to
+    //expect(game.deck.decks[0]).to.be.an.instanceof(Card)
     //I think this one can be checked by c
   });
 
@@ -70,4 +72,6 @@ describe('Game', function() {
   });
 
   it('should')
+
+  
 });
