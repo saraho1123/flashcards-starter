@@ -6,12 +6,10 @@ const Card = require('../src/Card');
 describe('Card', function() {
   let card;
   let wrongCard1;
-  let wrongCard2;
 
   beforeEach(function() {
     card = new Card(1, 'What allows you to define a set of related information using key-value pairs?', ['object', 'array', 'function'], 'object');
     wrongCard1 = new Card(1, 'What is Isaac\'s favorite color?', ['blue', 'orange', 'black', 'purple'], 'black');
-    wrongCard2 = new Card(1, 'What is Isaac\'s favorite color?', ['blue', 'orange', 'black', 'purple'], 23);
   });
 
   it('should be a function', function() {
@@ -41,7 +39,8 @@ describe('Card', function() {
 
 describe('Card sad path tests', function() {
   // TODO:
-  // need to use wrongCard and then write functionality to limit answers and correctAnswers
+  // need to use wrongCard and then write functionality to limit answers and correctAnswers.
+  // use wrongCard1 and wrongCard2 for tests.
   // I may not have time to complete these tests.
   let card;
   // let wrongCard1;
