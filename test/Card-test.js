@@ -37,7 +37,7 @@ describe('Card', function() {
   });
 });
 
-describe('Card sad path tests', function() {
+describe('Card sad path tests - need functionality', function() {
   // TODO:
   // need to use wrongCard and then write functionality to limit answers and correctAnswers.
   // use wrongCard1 and wrongCard2 for tests.
