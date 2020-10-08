@@ -29,14 +29,7 @@ describe('Round', function() {
     expect(round1).to.be.an.instanceof(Round);
   }); 
 
-  // test the properties FIRST! before testing the methods. use an it block for each property.
-  // test properties
-  // for methods:
-  // test properties changed by method
-  // test method returns
-
   it('should return the first Card in the Deck array', function() {
-  
     expect(round1.returnCurrentCard()).to.equal(card1);
   });  
 
@@ -78,12 +71,19 @@ describe('Round', function() {
     expect(round1.calculatePercentCorrect()).to.equal('67%');
   });
 
-  it.only('should end the game with a statement that includes percentage correct', function() {
+  it('should end the game with a statement that includes percentage correct', function() {
     round1.takeTurn('black');
     round1.takeTurn('beaches');
     round1.takeTurn('cardboard box');
 
     expect(round1.endRound()).to.equal('** Round over! ** You answered 67% of the questions correctly!');
-  })
+  });
+
+  // try to get up to 12 or 13
+  // check deck.id to equal (a new id number af)
+  // check that deck is an instance of Deck
+  // check that turn is an instance of Turn
+  // (see DM from Bailey!)
+  // 
 
 });  
