@@ -18,7 +18,6 @@ describe('Round', function() {
     card3 = new Card(3, 'What is Isaac\'s favorite toy?', ['bike', 'cardboard box', 'Legos!'], 'Legos!');
     decks = new Deck([card1, card2, card3]);
     round1 = new Round(decks);
-
   });
 
   it('should be a function', function() {
@@ -78,12 +77,4 @@ describe('Round', function() {
 
     expect(round1.endRound()).to.equal('** Round over! ** You answered 67% of the questions correctly!');
   });
-
-  // try to get up to 12 or 13
-  // check deck.id to equal (a new id number af)
-  // check that deck is an instance of Deck
-  // check that turn is an instance of Turn
-  // (see DM from Bailey!)
-  // 
-
 });  
