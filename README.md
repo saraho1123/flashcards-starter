@@ -1,4 +1,5 @@
-# FlashCards - Solo Project, Turing Module 2
+# FlashCards
+## Solo Project for Turing-Mod 2
 
 ## Project Summary
 
