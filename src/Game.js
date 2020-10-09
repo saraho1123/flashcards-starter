@@ -11,9 +11,7 @@ class Game {
   }
 
   start() {
-    console.log('Here\'s the game!')
     const deck = new Deck(prototypeQuestions);
-    console.log(deck);
     const round = new Round(deck);
     this.currentRound = round;
     this.printMessage(deck, this.currentRound );
@@ -26,7 +24,7 @@ class Game {
 }
 
   printQuestion(round) {
-      util.main(round);
+    util.main(round);
   }
 }
 
