@@ -11,11 +11,11 @@ Playing the game will require some setup:
 
 Clone down the forked repo (from your GitHub).
 
-      `git clone [remote-address] [what you want to name the repo]`
+      git clone [remote-address] [what you want to name the repo]
 
 Once you have cloned the repo, change into the directory and install the library dependencies. Run:
 
-     `npm install`
+     npm install
 
 
 Running node index.js from the root of your project should result in the following message being displayed in your terminal:
@@ -24,13 +24,13 @@ Running node index.js from the root of your project should result in the followi
 
 Verify that the game is working by running:
 
-    `npm test`
+    npm test
     
 The terminal should show 32 passing tests (with 4 pending).
 
 To play the game run the following command in the terminal:
 
-    `node index.js`
+    node index.js
 
 At this point, you should see a greeting and be prompted to answer the question of the first card of the deck.  Enjoy the game!
 
