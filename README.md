@@ -5,7 +5,7 @@
 
 This is a game for developers-in-training! The game includes 30 questions cards that can be answered in the terminal to find out how your software vocab is coming along for this module! 
 
-The project was our first introduction to using TDD and writing our own unit tests for our implementation code. We were asked to use beforeEach() and sad path testing, which are new concepts at this point in our learning. I am hoping to return to this project at some point to write better (and perhaps more) sad path tests.
+The project was our first introduction to using TDD and writing our own unit tests for our implementation code. We were asked to use beforeEach() and sad path testing, which are new concepts at this point in our learning. I am hoping to return to this project at some point to write better (and perhaps more) sad path tests. I have left some comments in my test files that reflect thoughts toward completing this goal.
 
 ## Flashcards Game Play
 Note that this gif shows a console log of all the game plays cards (which includes correct answers) when the game first begins. This has been removed for future game play.
