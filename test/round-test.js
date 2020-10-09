@@ -18,7 +18,6 @@ describe('Round', function() {
     card3 = new Card(3, 'What is Isaac\'s favorite toy?', ['bike', 'cardboard box', 'Legos!'], 'Legos!');
     decks = new Deck([card1, card2, card3]);
     round1 = new Round(decks);
-
   });
 
   it('should be a function', function() {
@@ -29,14 +28,7 @@ describe('Round', function() {
     expect(round1).to.be.an.instanceof(Round);
   }); 
 
-  // test the properties FIRST! before testing the methods. use an it block for each property.
-  // test properties
-  // for methods:
-  // test properties changed by method
-  // test method returns
-
   it('should return the first Card in the Deck array', function() {
-  
     expect(round1.returnCurrentCard()).to.equal(card1);
   });  
 
@@ -84,6 +76,5 @@ describe('Round', function() {
     round1.takeTurn('cardboard box');
 
     expect(round1.endRound()).to.equal('** Round over! ** You answered 67% of the questions correctly!');
-  })
-
+  });
 });  
