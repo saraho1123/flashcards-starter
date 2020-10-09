@@ -20,7 +20,7 @@ Verify that the game is working by running:
 
     npm test
     
-The terminal should show 32 passing tests (with 4 pending).
+The terminal should show 32 passing tests.
 
 To play the game run the following command in the terminal:
 
